@@ -29,7 +29,7 @@
 
       Email.send({
         SecureToken: 'cb270cb2-4d8c-4a96-ac1b-2fbb6d120416',
-        To : 'dylanrkuster@gmail.com',
+        To : 'dylan@getsafestop.com',
         From : 'dylanrkuster@gmail.com',
         Subject : 'Woohoo! SafeStop Sign Up!',
         Body : `${signupEmail} has signed up for SafeStop!`
