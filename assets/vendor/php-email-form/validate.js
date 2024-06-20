@@ -7,6 +7,7 @@
   "use strict";
 
   let forms = document.querySelectorAll('.php-email-form');
+  let previousEmailAddress = '';
 
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
@@ -25,22 +26,29 @@
       thisForm.querySelector(".error-message").classList.remove("d-block");
       thisForm.querySelector(".sent-message").classList.remove("d-block");
 
-        const formData = new FormData(thisForm);
-        const signupEmail = formData.get('email');
-        const device = formData.get('device');
+      const formData = new FormData(thisForm);
+      const signupEmail = formData.get('email');
+      const device = formData.get('device');
 
-      Email.send({
-        SecureToken: 'cb270cb2-4d8c-4a96-ac1b-2fbb6d120416',
-        To : 'dylan@getsafestop.com',
-        From : 'dylanrkuster@gmail.com',
-        Subject : 'Woohoo! SafeStop Sign Up!',
-        Body : `${signupEmail} has signed up for SafeStop with ${device}!`
-      }).then(_ => {
-        setTimeout(() => {
-          thisForm.querySelector(".loading").classList.remove("d-block");
-          thisForm.querySelector(".sent-message").classList.add("d-block");
-        }, 2000);
-      });
+      if (signupEmail !== previousEmailAddress) {
+        previousEmailAddress = signupEmail;
+        Email.send({
+          SecureToken: 'cb270cb2-4d8c-4a96-ac1b-2fbb6d120416',
+          To : 'dylan@getsafestop.com',
+          From : 'dylanrkuster@gmail.com',
+          Subject : 'Woohoo! SafeStop Sign Up!',
+          Body : `${signupEmail} has signed up for SafeStop with ${device}!`
+        }).then(_ => {
+          setTimeout(() => {
+            thisForm.querySelector(".loading").classList.remove("d-block");
+            thisForm.querySelector(".sent-message").classList.add("d-block");
+          }, 2000);
+        });
+      } else {
+        thisForm.querySelector(".loading").classList.remove("d-block");
+        thisForm.querySelector(".error-message").classList.add("d-block");
+        thisForm.querySelector(".sent-message").classList.remove("d-block");
+      }
     });
   });
 
