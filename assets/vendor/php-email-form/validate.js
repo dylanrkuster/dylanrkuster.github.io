@@ -36,8 +36,10 @@
         Subject : 'Woohoo! SafeStop Sign Up!',
         Body : `${signupEmail} has signed up for SafeStop with ${device}!`
       }).then(_ => {
-        thisForm.querySelector(".loading").classList.remove("d-block");
-        thisForm.querySelector(".sent-message").classList.add("d-block");
+        setTimeout(() => {
+          thisForm.querySelector(".loading").classList.remove("d-block");
+          thisForm.querySelector(".sent-message").classList.add("d-block");
+        }, 2000);
       });
     });
   });
