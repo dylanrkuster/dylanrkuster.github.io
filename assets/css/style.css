@@ -1647,3 +1647,11 @@ section {
 /*--------------------------------------------------------------
 # Classes I added
 --------------------------------------------------------------*/
+.device-selection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Montserrat", sans-serif;
+}
