@@ -71,8 +71,8 @@
     .hero-img {
       text-align: center;
       img {
-        max-width: 50%;
-      } 
+        max-width: 95%;
+      }
     }
 
     h1 {
@@ -80,13 +80,13 @@
       line-height: 32px;
       margin-bottom: 10px;
     }
-    
+
     h2 {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
     }
-     
+
   }
 
   @media (max-width: 575px) {
@@ -94,7 +94,7 @@
     .hero-img img {
       width: 80%;
     }
-     
+
   }
 
 }

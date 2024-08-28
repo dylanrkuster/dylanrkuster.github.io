@@ -429,11 +429,11 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
 
 #hero h1 span {
@@ -445,12 +445,14 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 40px;
   font-size: 24px;
+  text-align: center;
 }
 
 #hero h3 {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 20px;
   font-size: 24px;
+  text-align: center;
 }
 
 #hero .btn-get-started {
@@ -491,7 +493,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    max-width: 50%;
+    max-width: 95%;
   }
 
   #hero h1 {
@@ -507,11 +509,11 @@ h6 {
   }
 }
 
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
-}
+/*@media (max-width: 1200px) {*/
+/*  #hero .hero-img img {*/
+/*    width: 80%;*/
+/*  }*/
+/*}*/
 
 @keyframes up-down {
   0% {

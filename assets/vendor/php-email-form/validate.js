@@ -27,14 +27,13 @@
 
         const formData = new FormData(thisForm);
         const signupEmail = formData.get('email');
-        const device = formData.get('device');
 
       Email.send({
         SecureToken: 'cb270cb2-4d8c-4a96-ac1b-2fbb6d120416',
         To : 'dylan@getsafestop.com',
         From : 'dylanrkuster@gmail.com',
         Subject : 'Woohoo! SafeStop Sign Up!',
-        Body : `${signupEmail} has signed up for SafeStop with ${device}!`
+        Body : `${signupEmail} has signed up for SafeStop!`
       }).then(_ => {
         thisForm.querySelector(".loading").classList.remove("d-block");
         thisForm.querySelector(".sent-message").classList.add("d-block");

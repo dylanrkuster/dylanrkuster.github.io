@@ -43,16 +43,16 @@
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1><a href="index.html"><span>SafeStop</span></a></h1>
+      <div class="logo" style="align-items: center; display: flex; justify-content: center;">
+        <h1 style="margin-right: 10px"><a href="index.html"><span>SafeStop</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+         <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Get Early Access</a></li>
-          <li><a class="nav-link" href="https://medium.com/@dylanrkuster/from-road-trip-nightmare-to-app-innovation-the-birth-of-safestop-8cef17905653" target="_blank">The Journey</a></li>
+<!--          <li><a class="nav-link" href="https://medium.com/@dylanrkuster/from-road-trip-nightmare-to-app-innovation-the-birth-of-safestop-8cef17905653" target="_blank">The Journey</a></li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -64,42 +64,38 @@
   <section id="hero">
 
     <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+      <div class="justify-content-center align-items-center">
+<!--        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex ">-->
           <div data-aos="zoom-out">
-            <h1>Travel Confidently With <span>SafeStop</span></h1>
-            <h2>Safely plan your roadtrip with the power of FBI crime data.<br><br>Launching before Thanksgiving.</h2>
-            <h3>Join the beta group!</h3>
+            <h1 style="margin-bottom: 40px">No more stopping in bad areas.</h1>
+            <div
+                class="col-lg-4 order-1 order-lg-2 hero-img"
+                data-aos="zoom-out"
+                data-aos-delay="300"
+                style="align-items: center; display: flex; justify-content: center; width: 100%"
+            >
+              <img src="assets/img/hero-img.png" class="animated" alt="">
+            </div>
+            <h2 style="margin-top: 40px">The only crime map directly integrated with Apple CarPlay.<br><br>For the same price as a cup of coffee.</h2>
             <div class="contact">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group mt-3">
-                  <input type="email" class="form-control rounded" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group mt-3 device-selection">
-                    <input type="radio" id="iphone" name="device" value="iPhone" checked>
-                    <label for="iphone">iPhone</label><br>
-                    <input type="radio" id="android" name="device" value="Android">
-                    <label for="android">Android</label>
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="align-items: center; display: flex; flex-direction: column; justify-content: center">
+                <div class="form-group mt-3" style="align-items: center; display: flex; justify-content: center; width: 100%">
+                  <input type="email" class="form-control rounded" style="width: 75%" name="email" id="email" placeholder="Your Email" required>
                 </div>
                 <div class="my-3">
                   <div class="loading">Loading...</div>
                   <div class="error-message"></div>
                   <div class="sent-message">
-                    The current SafeStop beta group is full.
-                    <br>
-                    You will be notified when the next batch is released!
+                    You're on the list!<br/>We'll let you know when we release.
                   </div>
                 </div>
                 <div class="text-center text-lg-start">
-                  <button class="btn-get-started scrollto" type="submit">Become Founding Member #<span data-purecounter-start="0" data-purecounter-end="1249" data-purecounter-duration="3" class="purecounter"></span></button>
+                  <button class="btn-get-started scrollto" type="submit">Be notified when we release!</button>
                 </div>
               </form>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
-        </div>
+<!--        </div>-->
       </div>
     </div>
 
@@ -135,21 +131,21 @@
             <h3>Don't leave your safety to chance</h3>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-crosshair"></i></div>
+              <div class="icon"><i class="bx bx-world"></i></div>
               <h4 class="title"><a href="">Nationwide Coverage</a></h4>
               <p class="description">With crime data for over 20,000 towns and cities, you can stop confidently on even the most remote road trips.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-map-alt"></i></div>
-              <h4 class="title"><a href="">Google + Apple Maps Integration</a></h4>
-              <p class="description">Seamlessly transfer your route from SafeStop to your favorite map app with the click of a button.</p>
+              <div class="icon"><i class="bx bxl-apple"></i></div>
+              <h4 class="title"><a href="">Direct Apple CarPlay Integration</a></h4>
+              <p class="description">Browse nearby crime from your vehicle's navigation screen.</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-map"></i></div>
-              <h4 class="title"><a href="">Simple Stop Planning</a></h4>
-              <p class="description">Leverage SafeStop's built-in distance metrics to easily add stops to your route.</p>
+              <div class="icon"><i class="bx bx-x-circle"></i></div>
+              <h4 class="title"><a href="">No Subscriptions</a></h4>
+              <p class="description">Buy SafeStop once for $1.99, enjoy roadtrip peace of mind for life.</p>
             </div>
 
           </div>
@@ -162,23 +158,23 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+<!--    <div class="footer-top">-->
+<!--      <div class="container">-->
+<!--        <div class="row">-->
 
-          <div class="col-lg-12 col-md-6">
-            <div class="footer-info">
-              <h3>Contact SafeStop</h3>
-              <p class="pb-3"><em>Get in touch by sending an email!</em></p>
-              <p>
-                dylan@getsafestop.com<br>
-              </p>
-            </div>
-          </div>
+<!--          <div class="col-lg-12 col-md-6">-->
+<!--            <div class="footer-info">-->
+<!--              <h3>Contact SafeStop</h3>-->
+<!--              <p class="pb-3"><em>Get in touch by sending an email!</em></p>-->
+<!--              <p>-->
+<!--                dylan@getsafestop.com<br>-->
+<!--              </p>-->
+<!--            </div>-->
+<!--          </div>-->
 
-        </div>
-      </div>
-    </div>
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
 
     <div class="container">
       <div class="copyright">
