@@ -33,10 +33,10 @@
                 previousEmailAddress = signupEmail;
                 Email.send({
                     SecureToken: 'cb270cb2-4d8c-4a96-ac1b-2fbb6d120416',
-                    To : 'dylan@getsafestop.com',
-                    From : 'dylanrkuster@gmail.com',
-                    Subject : 'Woohoo! SafeStop Sign Up!',
-                    Body : `${signupEmail} has signed up for SafeStop!`
+                    To: 'dylan@getsafestop.com',
+                    From: 'dylanrkuster@gmail.com',
+                    Subject: 'Woohoo! SafeStop Sign Up!',
+                    Body: `${signupEmail} has signed up for SafeStop!`
                 }).then(_ => {
                     setTimeout(() => {
                         thisForm.querySelector(".loading").classList.remove("d-block");
