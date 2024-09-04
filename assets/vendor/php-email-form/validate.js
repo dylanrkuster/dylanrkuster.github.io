@@ -38,6 +38,7 @@
                     Subject: 'Woohoo! SafeStop Sign Up!',
                     Body: `${signupEmail} has signed up for SafeStop!`
                 }).then(_ => {
+                    fbq('track', 'CompleteRegistration');
                     setTimeout(() => {
                         thisForm.querySelector(".loading").classList.remove("d-block");
                         thisForm.querySelector(".sent-message").classList.add("d-block");
