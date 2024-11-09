@@ -67,7 +67,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Pre-release Info</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">Info</a></li>
 <!--          <li><a class="nav-link" href="https://medium.com/@dylanrkuster/from-road-trip-nightmare-to-app-innovation-the-birth-of-safestop-8cef17905653" target="_blank">The Journey</a></li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -95,20 +95,8 @@
             <h2 style="margin-top: 40px">The only crime map directly integrated with Apple CarPlay.<br><br>For the same price as a cup of coffee.</h2>
             <div class="contact">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="align-items: center; display: flex; flex-direction: column; justify-content: center">
-                <div class="form-group mt-3" style="align-items: center; display: flex; justify-content: center; width: 100%">
-                  <input type="email" class="form-control rounded" style="width: 75%" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="my-3">
-                  <div class="loading"></div>
-                  <div class="error-message">
-                    The email has already been registered.
-                  </div>
-                  <div class="sent-message">
-                    You're on the list!<br/>We'll let you know when we release.
-                  </div>
-                </div>
                 <div class="text-center text-lg-start">
-                  <button class="btn-get-started scrollto" type="submit">Be notified when we release!</button>
+                  <button class="btn-get-started scrollto" type="submit" onclick="openAppStoreLink()">Download today!</button>
                 </div>
               </form>
             </div>
@@ -218,6 +206,12 @@
 
   <!-- SMTP JS for emails -->
   <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    function openAppStoreLink() {
+        window.open('https://apps.apple.com/us/app/safestop-travel-assistant/id6499505832?uo=4', '_blank');
+    }
+</script>
 
 </body>
 

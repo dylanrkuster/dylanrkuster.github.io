@@ -475,6 +475,7 @@ h6 {
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  width: 75%;
 }
 
 @media (min-width: 1024px) {
@@ -509,11 +510,11 @@ h6 {
   }
 }
 
-/*@media (max-width: 1200px) {*/
-/*  #hero .hero-img img {*/
-/*    width: 80%;*/
-/*  }*/
-/*}*/
+@media (max-width: 1200px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+}
 
 @keyframes up-down {
   0% {
