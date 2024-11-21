@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Added complete registration fb pixel event">
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Updated link to Blog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +31,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2l7W4VoTcS2tGZKQjdqxh30WgUb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +71,8 @@
       <workItem from="1725449155184" duration="442000" />
       <workItem from="1726100475552" duration="14000" />
       <workItem from="1730664823568" duration="1031000" />
+      <workItem from="1730681958292" duration="5003000" />
+      <workItem from="1732016418305" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -109,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725449397131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated website with the latest">
+      <option name="closed" value="true" />
+      <created>1730682790464</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730682790464</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated link to Blog">
+      <option name="closed" value="true" />
+      <created>1731411736120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731411736120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +141,8 @@
     <MESSAGE value="Language changes" />
     <MESSAGE value="Added fb pixel init code" />
     <MESSAGE value="Added complete registration fb pixel event" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added complete registration fb pixel event" />
+    <MESSAGE value="Updated website with the latest" />
+    <MESSAGE value="Updated link to Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated link to Blog" />
   </component>
 </project>
