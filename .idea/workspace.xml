@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Remove delay" />
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Tracking updates">
+      <change beforePath="$PROJECT_DIR$/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visitBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/visitBlog.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +73,7 @@
       <workItem from="1726100475552" duration="14000" />
       <workItem from="1730664823568" duration="1031000" />
       <workItem from="1730681958292" duration="5003000" />
-      <workItem from="1732016418305" duration="1603000" />
+      <workItem from="1732016418305" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -152,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732186503080</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tracking updates">
+      <option name="closed" value="true" />
+      <created>1732186642356</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732186642357</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tracking updates">
+      <option name="closed" value="true" />
+      <created>1732186863285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732186863285</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +187,7 @@
     <MESSAGE value="New meta pixel" />
     <MESSAGE value="Testing out blog post redirect" />
     <MESSAGE value="Remove delay" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove delay" />
+    <MESSAGE value="Tracking updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tracking updates" />
   </component>
 </project>
