@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Updated link to Blog">
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="New meta pixel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <workItem from="1726100475552" duration="14000" />
       <workItem from="1730664823568" duration="1031000" />
       <workItem from="1730681958292" duration="5003000" />
-      <workItem from="1732016418305" duration="626000" />
+      <workItem from="1732016418305" duration="1217000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -130,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731411736120</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New meta pixel">
+      <option name="closed" value="true" />
+      <created>1732185291857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732185291857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +151,7 @@
     <MESSAGE value="Added complete registration fb pixel event" />
     <MESSAGE value="Updated website with the latest" />
     <MESSAGE value="Updated link to Blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated link to Blog" />
+    <MESSAGE value="New meta pixel" />
+    <option name="LAST_COMMIT_MESSAGE" value="New meta pixel" />
   </component>
 </project>
