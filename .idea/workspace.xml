@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="New meta pixel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Remove delay" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,7 @@
       <workItem from="1726100475552" duration="14000" />
       <workItem from="1730664823568" duration="1031000" />
       <workItem from="1730681958292" duration="5003000" />
-      <workItem from="1732016418305" duration="1217000" />
+      <workItem from="1732016418305" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -138,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732185291857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing out blog post redirect">
+      <option name="closed" value="true" />
+      <created>1732186115186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732186115186</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Remove delay">
+      <option name="closed" value="true" />
+      <created>1732186503080</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732186503080</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +166,8 @@
     <MESSAGE value="Updated website with the latest" />
     <MESSAGE value="Updated link to Blog" />
     <MESSAGE value="New meta pixel" />
-    <option name="LAST_COMMIT_MESSAGE" value="New meta pixel" />
+    <MESSAGE value="Testing out blog post redirect" />
+    <MESSAGE value="Remove delay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove delay" />
   </component>
 </project>
