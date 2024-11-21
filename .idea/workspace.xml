@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Tracking updates">
-      <change beforePath="$PROJECT_DIR$/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visitBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/visitBlog.html" afterDir="false" />
-    </list>
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Larger timeout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <workItem from="1726100475552" duration="14000" />
       <workItem from="1730664823568" duration="1031000" />
       <workItem from="1730681958292" duration="5003000" />
-      <workItem from="1732016418305" duration="1884000" />
+      <workItem from="1732016418305" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -171,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732186863285</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Trying a small timeout to get the event to register">
+      <option name="closed" value="true" />
+      <created>1732187063321</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732187063321</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Larger timeout">
+      <option name="closed" value="true" />
+      <created>1732187160934</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732187160934</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +201,8 @@
     <MESSAGE value="Testing out blog post redirect" />
     <MESSAGE value="Remove delay" />
     <MESSAGE value="Tracking updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tracking updates" />
+    <MESSAGE value="Trying a small timeout to get the event to register" />
+    <MESSAGE value="Larger timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Larger timeout" />
   </component>
 </project>
