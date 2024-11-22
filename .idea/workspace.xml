@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Change from redirecting">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Added &quot;/downloadFromScan&quot; for FB Pixel tracking" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,7 @@
       <workItem from="1726100475552" duration="14000" />
       <workItem from="1730664823568" duration="1031000" />
       <workItem from="1730681958292" duration="5003000" />
-      <workItem from="1732016418305" duration="5963000" />
+      <workItem from="1732016418305" duration="6118000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -258,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732300864797</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added &quot;/downloadFromScan&quot; for FB Pixel tracking">
+      <option name="closed" value="true" />
+      <created>1732315781099</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1732315781099</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +285,7 @@
     <MESSAGE value="Larger timeout" />
     <MESSAGE value="Debugging" />
     <MESSAGE value="Change from redirecting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change from redirecting" />
+    <MESSAGE value="Added &quot;/downloadFromScan&quot; for FB Pixel tracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;/downloadFromScan&quot; for FB Pixel tracking" />
   </component>
 </project>
