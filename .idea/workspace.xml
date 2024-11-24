@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Rename path">
+    <list default="true" id="fdd03dfd-017f-4e74-b3f5-62352856b46b" name="Changes" comment="Improve facebook tracking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
       <workItem from="1730664823568" duration="1031000" />
       <workItem from="1730681958292" duration="5003000" />
       <workItem from="1732016418305" duration="6507000" />
+      <workItem from="1732392041170" duration="343000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the website!">
       <option name="closed" value="true" />
@@ -282,7 +283,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732316825328</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Improve facebook tracking">
+      <option name="closed" value="true" />
+      <created>1732392199627</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1732392199627</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Improve facebook tracking">
+      <option name="closed" value="true" />
+      <created>1732392213297</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1732392213297</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +322,7 @@
     <MESSAGE value="Change from redirecting" />
     <MESSAGE value="Added &quot;/downloadFromScan&quot; for FB Pixel tracking" />
     <MESSAGE value="Rename path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename path" />
+    <MESSAGE value="Improve facebook tracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve facebook tracking" />
   </component>
 </project>
